@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Friend Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <!-- section>(div+form) -->
+    <section>
+        <div>
+            <h1>Best Friend Application</h1>
+            <img src="https://th.bing.com/th/id/OIP.Eeyb5f_RssIfVy-D7dBpXQHaIU?w=152&h=180&c=7&o=5&dpr=1.25&pid=1.7" alt="hello-minion">
+            <p>
+                Hey there! I need a new best friend because I have 10 and I want one more to make it 11.😋 That means a whole soccer team .👏 I am a bit moody but super cool.
+            </p>
+            <h3>
+                Wanna be friends?
+            </h3>
+        </div>
+        <form action="mailto:arnavmnaik@gmail.com?Subject=My Best Friend Application" method="POST" enctype="text/plain">
+            <label for="name">What's your name?</label>
+            <input type="text" name="name" id="name" placeholder="Chris Babbage">
+            <label for="nickname">What do you want me to call you?</label>
+            <input type="text" name="nickname" id="nickname" placeholder="cabbage">
+            <label for="age">What's your age?</label>
+            <input type="number" name="age" id="age" min="10" max="18">
+            <label for="superhero">Who is you favourite superhero?</label>
+            <br>
+            <input type="checkbox" name="iron man" id="ironman">
+            <label for="ironman">Ironman</label>
+            <input type="checkbox" name="batman" id="batman">
+            <label for="Batman">Batman</label>
+            <input type="checkbox" name="Superman" id="Superman">
+            <label for="Superman">Superman</label>
+            <br>
+            <label for="why">Why do you want to be friends with me?</label>
+            <textarea name="why" id="why" cols="30" rows="3">I want to be friends with you because.....</textarea>
+            <input type="submit" value="LET'S BE FRIENDS">
+        </form>
+    </section>
+
+
+</body>
+</html>
